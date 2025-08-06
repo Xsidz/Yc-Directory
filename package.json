@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-     "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit"
   },
   "packageManager": "npm@10.9.2",
   "overrides": {
@@ -15,6 +15,7 @@
     "react-dom": "$react-dom"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.2.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.536.0",
